@@ -82,3 +82,7 @@ body {
 .container{
     position: relative;
 }
+
+q{
+    font-size: small;
+}
