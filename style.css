@@ -49,11 +49,14 @@ body {
 
 .navbar-dark .navbar-nav .nav-link {
     color: rgba(255,255,255,.9);
+    font-weight: bold;
+    font-size: larger;
 }
 
 .navbar-nav .nav-item.active .nav-link {
-    color: #901832 !important;
+    color: #c94763 !important;
     font-weight: bold;
+    font-size: larger;
 }
 
 .banner-img {
