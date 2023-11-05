@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Musical</title>
+    <!-- Incluindo Bootstrap CSS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <link href="./style.css" rel="stylesheet">
+    <script src="/script.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary-blur">
+        <a class="navbar-brand" href="#"><img src="/images/LogoPontoMusical.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Notícias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/shows.html">Shows</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/lancamentos.html">Lançamentos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contato.html">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Conteúdo -->
+    <div class="banner-img">
+        <img src="/images/bannermusical.png" alt="">
+
+        <div class="container content">
+            <h1 class="text-white">Notícias</h1>
+            <p class="text-white">Confira as últimas notícias pelo Brasil</p>
+        </div>
+    </div>
+
+    <!-- Conteúdo -->
+    <div class="container content my-5">
+
+        <h2 class="mb-5">Notícias</h2>
+
+        <!-- noticia 2 -->
+        <div class="rounded shadow d-flex flex-wrap mb-5 pointer" onclick="gopage('/noticias/noticia2.html')">
+            <div class="col-md-6 col-sm-12 px-0">
+                <img class="card-img-left rounded"
+                    src="https://assets.papelpop.com/wp-content/uploads/2023/03/taylor-swift-getty-scaled.jpg"
+                    alt="Imagem de capa do card">
+            </div>
+            <div class="col-md-6 col-sm-12 d-flex flex-column px-0">
+                <div class="card-body">
+                    <h5 class="card-title">Taylor Swift alcança status de Bilionária, anuncia Agência Bloomberg</h5>
+                    <p class="card-text">Bloomberg confirma: Taylor Swift torna-se Bilionária com o Sucesso da Turnê
+                        'The Eras Tour</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Atualizado: 30/10/2023</small>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Noticia 3 -->
+        <div class="rounded shadow d-flex flex-wrap mb-5 pointer" onclick="gopage('/noticias/noticia3.html')">
+            <div class="col-md-6 col-sm-12 px-0">
+                <img class="card-img-left rounded"
+                    src="https://uploads.metropoles.com/wp-content/uploads/2023/10/30144056/396455391_169233372927720_5029420116540628572_n.jpg"
+                    alt="Imagem de capa do card">
+            </div>
+            <div class="col-md-6 col-sm-12 d-flex flex-column px-0">
+                <div class="card-body">
+                    <h5 class="card-title">Junior explora liberdade artística e Colaboração notável com a Sandy em seu
+                        Álbum 'Solo'</h5>
+                    <p class="card-text">Uma Jornada de Redescoberta e Autenticidade Musical</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Atualizado: 29/10/2023</small>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- noticia 4 -->
+        <div class="rounded shadow d-flex flex-wrap mb-5 pointer" onclick="gopage('/noticias/noticia4.html')">
+            <div class="col-md-6 col-sm-12 px-0">
+                <img class="card-img-left rounded"
+                    src="https://portalpopline.com.br/wp-content/uploads/2023/10/luisa-sonza-libera-previa-sua-musa-do-verao-marshmello-758x570.webp"
+                    alt="Imagem de capa do card">
+            </div>
+            <div class="col-md-6 col-sm-12 d-flex flex-column px-0">
+                <div class="card-body">
+                    <h5 class="card-title">Luísa Sonza confirma parceria com Marshmello e revela prévia de 'Sou Musa do
+                        Verão' do Álbum 'Sugar Papi'</h5>
+                    <p class="card-text">Lançamento Previsto para 3 de Novembro!</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Atualizado: 28/10/2023</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- noticia 5 -->
+        <div class="rounded shadow d-flex flex-wrap mb-5 pointer" onclick="gopage('/noticias/noticia5.html')">
+            <div class="col-md-6 col-sm-12 px-0">
+                <img class="card-img-left rounded"
+                    src="https://cdn.ome.lt/yPHBKYCw2zqzktAlunJZE-KJsjA=/1200x630/smart/extras/conteudos/ed-sheeran-american-town-live-acoustic.png"
+                    alt="Imagem de capa do card">
+            </div>
+            <div class="col-md-6 col-sm-12 d-flex flex-column px-0">
+                <div class="card-body">
+                    <h5 class="card-title">Ed Sheeran revela detalhes peculiares sobre sua casa: Um Túmulo pessoal para
+                        garantir a sua Memória</h5>
+                    <p class="card-text">O Cantor Explica sua Incomum Escolha e a Razão Emocional por Trás do Túmulo em
+                        sua Propriedade Inglesa</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Atualizado: 27/10/2023</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- noticia 6 -->
+        <div class="rounded shadow d-flex flex-wrap mb-5 pointer" onclick="gopage('/noticias/noticia6.html')">
+            <div class="col-md-6 col-sm-12 px-0">
+                <img class="card-img-left rounded"
+                    src="https://i0.wp.com/blog.skeelo.com/wp-content/uploads/2023/10/britney-spears-biografia.png?fit=1900%2C600&ssl=1"
+                    alt="Imagem de capa do card">
+            </div>
+            <div class="col-md-6 col-sm-12 d-flex flex-column px-0">
+                <div class="card-body">
+                    <h5 class="card-title">Memórias de Britney Spears disparam Streaming e Vendas digitais nos EUA após
+                        Lançamento de Novo Livro</h5>
+                    <p class="card-text">Do Brilho na Infância à Coragem nas Páginas - As Revelações do Livro que
+                        Sacudiram o Mundo da Música</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Atualizado: 26/10/2023</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- noticia1 -->
+        <div class="rounded shadow d-flex flex-wrap mb-5 pointer" onclick="gopage('/noticias/noticia1.html')">
+            <div class="col-md-6 col-sm-12 px-0">
+                <img class="card-img-left rounded"
+                    src="https://s2-g1.glbimg.com/Mhrhhu_K4S-m10DfzjeefPXJQSQ=/0x0:1440x1440/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/S/2/YPhMS5SjSdVBMIIAsj9A/fundodequintalpragentesambarcapa.jpg"
+                    alt="Imagem de capa do card">
+            </div>
+            <div class="col-md-6 col-sm-12 d-flex flex-column px-0">
+                <div class="card-body">
+                    <h5 class="card-title">Fundo de Quintal: Uma Viagem Nostálgica em um Novo Álbum de Sambas Clássicos
+                    </h5>
+                    <p class="card-text">Batuqueiro' e 'Raça Negra' elevam o repertório de regravações em 'Pra Gente
+                        Sambar</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">atualizado: 25/10/2023</small>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="bg-primary-blur text-white py-3">
+        <div class="container text-center">
+            <p>&copy; 2023 PontoMusical. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Incluindo Bootstrap JS (opcional, caso você queira usar funcionalidades como dropdowns) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
